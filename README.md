@@ -32,7 +32,7 @@ Cloná el repositorio e instalá las dependencias:
 
 ```bash
 git clone <URL_DEL_REPO>
-cd star-wars-catalogue
+cd Catalogo-Star-Wars
 npm install
 ```
 
@@ -100,6 +100,7 @@ npm run test
 ```
 
 Esto corre la suite completa de tests unitarios, cubriendo:
+
 - Lógica de autenticación (registro, login, hashing, validación de credenciales)
 - CRUD y búsqueda de películas
 - Guard de roles
