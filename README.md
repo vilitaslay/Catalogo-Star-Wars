@@ -1,4 +1,4 @@
-# Catalogo de Star Wars — Backend
+# Catálogo de Star Wars — Backend
 
 Backend desarrollado en **NestJS** para la gestión de películas, con autenticación JWT, control de roles, y sincronización de datos desde la [API pública de Star Wars (SWAPI)](https://www.swapi.tech/).
 
@@ -16,9 +16,15 @@ Proyecto realizado como parte del **Backend Nest Ssr. Test** de Conexa.
 
 ## Requisitos previos
 
-- Node.js (v18 o superior recomendado)
-- npm
+- **Node.js** (v18 o superior recomendado). Si no lo tenés instalado, descargalo desde [nodejs.org](https://nodejs.org/) (la versión LTS es la recomendada). npm se instala automáticamente junto con Node.
 - Una instancia de PostgreSQL (local vía Docker, o un servicio hosteado como Railway/Supabase)
+
+Para verificar que Node y npm están instalados correctamente:
+
+```bash
+node -v
+npm -v
+```
 
 ## Instalación
 
