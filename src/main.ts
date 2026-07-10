@@ -9,7 +9,7 @@ async function bootstrap() {
 
    const config = new DocumentBuilder()
     .setTitle('Star Wars Catalogue API')
-    .setDescription('Backend Nest Ssr Test — Conexa')
+    .setDescription('Backend NestJs — Conexa')
     .setVersion('1.0')
     .addBearerAuth() // this is what lets Swagger UI send JWT tokens
     .build();
